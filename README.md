@@ -49,8 +49,8 @@ This script constructs these domains numerically by discretizing the upper half-
 - To observe disconnected domains, try `100 1 0 0.01` and its inverse
 
 ## 📸 Example Output
-![Figure_1](https://github.com/user-attachments/assets/efd7c182-87b3-4493-9c8f-b60cfa0e9e10)
-![Figure_1](https://github.com/user-attachments/assets/efd7c182-87b3-4493-9c8f-b60cfa0e9e10)
+![1+1j, 1 1 0 1, 1 0 1 1](https://github.com/user-attachments/assets/96e85b55-03fb-4688-bd8b-0523ad4e9fb9)
+![Figure_2](https://github.com/user-attachments/assets/caaa1c02-12d4-4ef8-9291-6f5e21fc6fc9)
 
 
 ## 🙋 Contributing
