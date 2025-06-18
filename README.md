@@ -22,12 +22,6 @@ Install all dependencies:
 pip install numpy matplotlib shapely alphashape scipy
 ```
 
-## ▶️ Usage
-Run the script from terminal:
-```bash
-python dirichlet_scope.py
-```
-
 You will be prompted to enter:
 - A base point (e.g., `0+1j`)
 - One or more Möbius transformations as 4 real numbers: `a b c d`
@@ -56,7 +50,9 @@ This script constructs these domains numerically by discretizing the upper half-
 - To observe disconnected domains, try `100 1 0 0.01` and its inverse
 
 ## 📸 Example Output
-_(Include screenshots or animated gifs here)_
+![Figure_1](https://github.com/user-attachments/assets/efd7c182-87b3-4493-9c8f-b60cfa0e9e10)
+![Figure_1](https://github.com/user-attachments/assets/efd7c182-87b3-4493-9c8f-b60cfa0e9e10)
+
 
 ## 🙋 Contributing
 Pull requests and suggestions are welcome!
