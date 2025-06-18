@@ -45,11 +45,11 @@ Enter Möbius generators (a b c d), one per line. Empty line to finish:
 ```
 
 ## 📚 Background
-A Dirichlet domain for a group $\Gamma \subset SL(2, \mathbb{R})$ centered at \( z_0 \in \mathbb{H} \) is defined as:
+A Dirichlet domain for a group $\Gamma \subset SL(2, \mathbb{R})$ centered at $z_0 \in \mathbb{H}$ is defined as:
 
-\[
+$
 D(z_0) = \{ z \in \mathbb{H} : d(z, z_0) < d(z, \gamma z_0), \forall \gamma \in \Gamma \setminus \{1\} \}
-\]
+$
 
 This script constructs these domains numerically by discretizing the upper half-plane, evaluating hyperbolic distances, and intersecting the corresponding half-planes.
 
@@ -59,9 +59,6 @@ This script constructs these domains numerically by discretizing the upper half-
 
 ## 📸 Example Output
 _(Include screenshots or animated gifs here)_
-
-## 📄 License
-MIT
 
 ## 🙋 Contributing
 Pull requests and suggestions are welcome!
