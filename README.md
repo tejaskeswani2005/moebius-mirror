@@ -1,11 +1,11 @@
 # moebius-mirror
 
-**moebius-mirror** is a Python tool for visualizing Dirichlet domains of Fuchsian groups acting on the hyperbolic upper half-plane. It computes and renders the region of points closer (in hyperbolic distance) to a fixed base point than to any of its images under Möbius transformations from a user-defined group.
+**moebius-mirror** is a Python tool for visualizing Dirichlet domains of finitely generated Fuchsian groups acting on the hyperbolic upper half-plane. It computes and renders the region of points closer (in hyperbolic distance) to a fixed base point than to any of its images under Möbius transformations from a user-defined group.
 
 ## 📐 What it Does
 - Accepts Möbius transformations in SL(2, ℝ) as input.
 - Computes true hyperbolic bisectors (via distance comparison).
-- Approximates the Dirichlet domain using alpha shapes.
+- Approximates the Dirichlet domain.
 - Supports non-convex, curved, and even disconnected domains.
 - Visualizes the domain using matplotlib.
 
@@ -14,12 +14,11 @@
 - numpy
 - matplotlib
 - shapely
-- alphashape
 - scipy
 
 Install all dependencies:
 ```bash
-pip install numpy matplotlib shapely alphashape scipy
+pip install numpy matplotlib shapely scipy
 ```
 
 You will be prompted to enter:
